@@ -1,0 +1,166 @@
+html,
+body {
+    width: auto !important;
+    overflow-x: hidden !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#at-header,
+#at-footer {
+    width: 100%;
+    padding-left: 1%;
+    margin-bottom: 0px;
+    background-color: #280a70;
+    border: 1px solid #280a70;
+    color: #FFFFFF;
+}
+
+#at-header {
+    height: 100px;
+}
+
+#at-header a {
+    color: #FFFFFF;
+}
+
+.at-logo-title img {
+    height: auto;
+    max-width: 50px;
+    width: 100%;
+}
+
+.menu-menu-1-container {
+    float: right;
+    display: flex;
+    margin-right: 15px;
+}
+
+ul#menu-menu-1 {
+    display: inline-flex;
+    list-style: none;
+}
+
+ul#menu-menu-1 li {
+
+    margin: 0px;
+    padding: 0 15px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+#at-footer a {
+    color: #FFFFFF;
+}
+
+h1.at-site-title {
+    float: left;
+}
+
+body>header>h1>a {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+article>header {}
+
+#at-footer {
+    margin-top: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 'Margin: 0 auto' centers block content on the page */
+.at-main {
+    width: 99%;
+    margin: 20px auto;
+    min-height: calc(100vh - 20px);
+}
+
+.at-content-area {
+    display: inline-block;
+}
+
+.at-content-thin {
+    width: 70%;
+}
+
+.at-content-full-width {
+    width: 100%;
+}
+
+.at-content-area,
+.at-primary-sidebar {
+    display: inline-block;
+}
+
+.at-primary-sidebar {
+    width: 25%;
+    padding: 1%;
+    vertical-align: top;
+    background-color: #ececec;
+}
+
+.at-article-loop {
+    width: 96%;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+.at-article-full {
+    width: 99%;
+    padding: 1%;
+}
+
+.at-article-loop,
+.at-article-full {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFF;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+.at-developers {
+    width: 50%;
+}
+
+.at-developers h4,
+.at-developers .wp-block-post-author {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .wp-block-search__inside-wrapper,
+    input#wp-block-search__input-1,
+    button.wp-block-search__button.wp-element-button {
+        display: block !important;
+
+    }
+
+    input#wp-block-search__input-1 {
+        width: 170px;
+    }
+
+    button.wp-block-search__button.wp-element-button {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+}
+
+
+@media (max-width: 690px) {
+    input#wp-block-search__input-1 {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    input#wp-block-search__input-1 {
+        width: 70px !important;
+    }
+}

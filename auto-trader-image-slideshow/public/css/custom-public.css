@@ -1,0 +1,23 @@
+#slider {
+    position: relative;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+}
+
+#slider img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    max-height: 400px;
+}
+
+.img_visible {
+    position: relative;
+    float: left;
+}
+
+.at-search header {
+    margin-left: 15px;
+}
